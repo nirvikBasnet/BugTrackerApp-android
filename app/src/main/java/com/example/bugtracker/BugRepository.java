@@ -28,7 +28,7 @@ public class BugRepository {
     public void delete(Bug bug){
         new DeleteBugAsyncTask(bugDao).execute(bug);
 
-    } public void deleteAllBug(Bug bug){
+    } public void deleteAllBug(){
         new DeleteAllBugAsyncTask(bugDao).execute();
 
     }
