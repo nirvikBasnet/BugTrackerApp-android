@@ -10,7 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BugTracker">
         <activity
+            android:name=".AddBugActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity"
+            />
+        <activity
             android:name=".MainActivity"
+            android:launchMode="singleTop"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

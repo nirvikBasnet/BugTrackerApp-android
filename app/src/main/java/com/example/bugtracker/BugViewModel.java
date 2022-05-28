@@ -34,3 +34,4 @@ public class BugViewModel extends AndroidViewModel {
         return allBugs;
     }
 }
+//latitude
